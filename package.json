@@ -39,7 +39,7 @@
   },
   "homepage": "https://github.com/alex-okrushko/backoff-rxjs#readme",
   "peerDependencies": {
-    "rxjs": "^6.5.5"
+    "rxjs": "^7.2.0"
   },
   "devDependencies": {
     "@types/jest": "^25.2.2",
@@ -58,6 +58,5 @@
     "webpack": "^4.29.1",
     "webpack-cli": "^3.2.3",
     "webpack-rxjs-externals": "^2.0.0"
-  },
-  "dependencies": {}
+  }
 }
