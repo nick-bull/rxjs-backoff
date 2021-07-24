@@ -1,6 +1,6 @@
 {
   "name": "backoff-rxjs",
-  "version": "6.5.7",
+  "version": "0.1.0",
   "description": "A collection of helpful RxJS operators to deal with backoff strategies (like exponential backoff)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -13,7 +13,6 @@
     "dist:build:cjs": "tsc -p tsconfig-dist-cjs.json",
     "dist:build:esm2015": "tsc -p tsconfig-dist-esm2015.json",
     "dist:build:esm5": "tsc -p tsconfig-dist-esm5.json",
-    "dist:clean": "rimraf dist && rimraf bundles/backoff-rxjs.* && mkdirp bundles",
     "dist:copy": "node scripts/pack.js && cpy bundles/backoff-rxjs.* dist/bundles/ && cpy CHANGELOG.md LICENSE README.md dist/",
     "lint": "tslint --project tsconfig.json src/**/*.ts",
     "prettier": "prettier --write \"**/*.ts\"",
@@ -25,19 +24,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alex-okrushko/backoff-rxjs.git"
+    "url": "git+https://github.com/nick-bull/backoff-rxjs.git"
   },
   "keywords": [
     "RxJS",
     "backoff",
     "exponential"
   ],
-  "author": "Alex Okrushko",
+  "author": "Nick Bull",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alex-okrushko/backoff-rxjs/issues"
+    "url": "https://github.com/nick-bull/backoff-rxjs/issues"
   },
-  "homepage": "https://github.com/alex-okrushko/backoff-rxjs#readme",
+  "homepage": "https://github.com/nick-bull/backoff-rxjs#readme",
   "peerDependencies": {
     "rxjs": "^7.2.0"
   },
