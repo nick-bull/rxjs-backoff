@@ -1,11 +1,8 @@
 # backoff-rxjs
 
-A collection of helpful RxJS operators to deal with backoff strategies (like exponential backoff)
-Angular-in-Depth article about this library is at https://indepth.dev/power-of-rxjs-when-using-exponential-backoff/
+A collection of helpful RxJS operators to deal with backoff strategies
 
 ## intervalBackoff
-
-![Basic interval backoff](./intervalBackoffBasic.svg)
 
 `intervalBackoff` works similiarly to `interval` except that it doubles the delay between emissions every time.
 
@@ -35,8 +32,6 @@ fromEvent(document, 'mousemove').pipe(
 ```
 
 ## retryBackoff
-
-![Retry Backoff Exponential Image](./retryBackoff.svg)
 
 | name   | type                                                                                                                                                                                                                                                    | attirbute | description                                                                                                                                                                                                                          |
 | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
